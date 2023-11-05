@@ -57,7 +57,7 @@ function Characters() {
           <input
             type="text"
             className=" w-full bg-transparent  text-white px-4 focus:outline-none "
-            placeholder="Buscar por nombre"
+            placeholder="Search by name"
             value={input}
             required
             onChange={(e) => setInput(e.target.value)}
@@ -65,11 +65,11 @@ function Characters() {
           <div className={`h-full flex justify-centeri items-center px-4 ${input ==="" && " hidden"}`}><BiSolidTrash onClick={(e) => {setInput(""),getAllCharacters}} className=" text-lg  cursor-pointer animate-pulse hover:animate-none hover:scale-110 active:scale-100 transition-all"/></div>
           <button
             type="submit"
-            className={`px-4 py-2 bg-white text-black border w-2/12 rounded-r-xl ${
+            className={`px-4 py-2 bg-white text-black border w-4/12 md:w-2/12 rounded-r-xl ${
               input.length <= 0 && " opacity-50 cursor-not-allowed "
             }`}
           >
-            Buscar
+            Search
           </button>
         </form>
       </div>

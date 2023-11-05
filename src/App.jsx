@@ -9,9 +9,8 @@ function App() {
       <Hero />
       <div className="w-full">
         <h2 className="text-4xl text-center  font-bold" data-aos="fade-up"
-        >Personajes</h2>
+        >Characters</h2>
 
-        {/* personajes */}
         <Characters />
       </div>
     </main>
