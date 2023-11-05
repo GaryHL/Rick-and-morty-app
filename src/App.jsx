@@ -1,5 +1,5 @@
 import Aos from "aos";
-import Hero from "./components/hero";
+import Hero from "./components/Hero";
 import Characters from "./components/Characters";
 Aos.init();
 
