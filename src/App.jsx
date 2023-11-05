@@ -1,6 +1,6 @@
 import Aos from "aos";
-import Characters from "./components/characters";
 import Hero from "./components/hero";
+import Characters from "./components/Characters";
 Aos.init();
 
 function App() {

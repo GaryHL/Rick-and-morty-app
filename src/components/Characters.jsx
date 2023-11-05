@@ -62,7 +62,7 @@ function Characters() {
             required
             onChange={(e) => setInput(e.target.value)}
           />
-          <div className={`h-full flex justify-centeri items-center px-4 ${input ==="" && " hidden"}`}><BiSolidTrash onClick={(e) => {getAllCharacters(),setInput("")}} className=" text-lg  cursor-pointer animate-pulse hover:animate-none hover:scale-110 active:scale-100 transition-all"/></div>
+          <div className={`h-full flex justify-centeri items-center px-4 ${input ==="" && " hidden"}`}><BiSolidTrash onClick={(e) => {setInput(""),getAllCharacters}} className=" text-lg  cursor-pointer animate-pulse hover:animate-none hover:scale-110 active:scale-100 transition-all"/></div>
           <button
             type="submit"
             className={`px-4 py-2 bg-white text-black border w-2/12 rounded-r-xl ${
