@@ -1,6 +1,7 @@
 import Aos from "aos";
 import Hero from "./components/Hero";
 import Characters from "./components/Characters";
+import UpButton from "./components/UpButton";
 Aos.init();
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 
         <Characters />
       </div>
+      <UpButton/>
     </main>
   );
 }
