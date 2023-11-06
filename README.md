@@ -1,4 +1,4 @@
-![Banner](https://imgur.com/e8zKRTg)
+![Banner](https://i.imgur.com/e8zKRTg.png)
 # Rick and Morty APP
 
 ## 📍 Table of Contents
@@ -26,7 +26,7 @@ $ npm run dev
 
 ## 🕹️ Demo
 [Live demo 🕹️](https://rick-and-morty-app-re5s.vercel.app/)
-![banner](https://imgur.com/E5Xf7t6)
+![banner](https://imgur.com/E5Xf7t6.png)
 
 ## ⭐ Features
 - Paint all characters
