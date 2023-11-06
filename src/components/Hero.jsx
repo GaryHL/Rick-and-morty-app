@@ -56,7 +56,7 @@ function Hero() {
             />
           </div>
         ))}
-        <div className="w-full h-full bg-black absolute scale-125 opacity-80"></div>
+        <div className="w-full h-full bg-black absolute scale-x-125 scale-y-110 opacity-80"></div>
       </div>
       <div className="flex flex-col z-10">
         <div className="flex flex-col gap-6" 
