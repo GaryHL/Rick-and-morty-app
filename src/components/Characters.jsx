@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import CharacterCard from "./CharacterCard";
 import stars from "../assets/stars.gif";
 import { AiFillCloseCircle } from "react-icons/ai";
-import {BiSolidTrash} from "react-icons/bi";
+import { BiSolidTrash } from "react-icons/bi";
 
 const apiUrl = import.meta.env.VITE_REACT_APP_RICK_AND_MORTY_API_URL;
 
@@ -61,7 +61,18 @@ function Characters() {
             required
             onChange={(e) => setInput(e.target.value)}
           />
-          <div className={`h-full flex justify-centeri items-center px-4 ${input ==="" && " hidden"}`}><BiSolidTrash onClick={(e) => {setInput(""),getAllCharacters}} className=" text-lg  cursor-pointer animate-pulse hover:animate-none hover:scale-110 active:scale-100 transition-all"/></div>
+          <div
+            className={`h-full flex justify-centeri items-center px-4 ${
+              input === "" && " hidden"
+            }`}
+          >
+            <BiSolidTrash
+              onClick={(e) => {
+                setInput(""), getAllCharacters();
+              }}
+              className=" text-lg  cursor-pointer animate-pulse hover:animate-none hover:scale-110 active:scale-100 transition-all"
+            />
+          </div>
           <button
             type="submit"
             className={`px-4 py-2 bg-white text-black border w-4/12 md:w-2/12 rounded-r-xl ${
