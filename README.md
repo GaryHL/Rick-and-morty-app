@@ -25,7 +25,7 @@ $ npm run dev
 ```
 
 ## 🕹️ Demo
-[👉👉Live demo click here 👈👈](https://rick-and-morty-app-re5s.vercel.app/)
+[👉👉Live demo click here 👈👈](https://gary-rick-and-morty.vercel.app/)
 ---
 ![banner](https://imgur.com/E5Xf7t6.png)
 ![banner](https://imgur.com/7dFTXB3.png)
