@@ -50,7 +50,6 @@ function Characters() {
     <>
       <div className="w-full flex justify-center gap-2 py-10">
         <form
-        data-aos="fade-up"
           onSubmit={(e) => handleSearch(e)}
           className="  x  w-full md:w-1/2 flex flex-row rounded-xl border border-gray-500 bg-gray-500 bg-opacity-20 backdrop-blur-xl"
         >
